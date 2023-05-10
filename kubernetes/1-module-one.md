@@ -1,5 +1,14 @@
 # Module 1
 
+Create a working directory and navigate into it
+
+```
+mkdir otel-quickstart
+```
+```
+cd otel-quickstart
+```
+
 ## Pull OTel helm repo locally
 
 ```
