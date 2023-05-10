@@ -1,7 +1,9 @@
 # OTel-Quickstart
 Welcome to OTel-Quickstart! 
 
-A collection of practical example configs and lab modules to help you get data into Splunk Cloud or Splunk Enterprise, quickly!
+A collection of practical example configs and lab modules to help you get OTel Pipeline data into Splunk Cloud or Splunk Enterprise, quickly!
+
+The following examples currently assume a linux workstation, though should provide an idea of what to do on other OS. 
 
 # Choose a Quickstart
 
