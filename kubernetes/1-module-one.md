@@ -114,3 +114,5 @@ index=otel_events
 
 Navigate to the Analytics tab and confirm you see metrics.
 
+
+Proceed to [Module 2](https://github.com/matthewmodestino/otel-quickstart/blob/main/kubernetes/2-module-two.md)
