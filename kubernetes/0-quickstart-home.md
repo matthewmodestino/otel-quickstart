@@ -2,7 +2,7 @@
 
 In this quickstart, you will be guided through install and deployment of the Splunk OTel Collector for Kubernetes Helm Chart. 
 
-The modules contained here will cover Helm Chart download, prep and Install, using a sample base "values.yaml"
+The modules contained here will cover Helm Chart download, prep and Install, using a sample base `"values.yaml"`
 
 At this time, the modules assume a linux based workstation. Windows users should be able to follow along with minor adjustments. 
 
