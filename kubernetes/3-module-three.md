@@ -29,7 +29,7 @@ kubectl -n otel get pods
 Check that there are no errors in your agent pod:
 
 ```
-kubectl -n otel logs -f <collector-agent-pod> 
+kubectl -n otel logs -f <collectorAgentPod> 
 ```
   
 Now check the configmap to see what this renders. You will find the configs this renders under the “filelog receiver” section, which will require you to scroll up a bit through the output. 
@@ -43,7 +43,7 @@ kubectl -n otel get cm
 View your configmap in yaml format
 
 ```
-kubectl -n otel get cm <yourNameHere>-otel-splunk-otel-collector-otel-agent -o yaml
+kubectl -n otel get cm <yourNameHere>-splunk-otel-collector-otel-agent -o yaml
 ```
   
 scroll up until you see the regex we pasted into the multilineConfig section and let’s review what the helm chart has built for us
