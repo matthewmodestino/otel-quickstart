@@ -4,7 +4,7 @@ kubectl create ns mario
 
 First let’s vi a file to copy our deployment and service yaml into:
 
-vi <yourNameHere>-mario-deploy.yaml
+`vi <yourNameHere>-mario-deploy.yaml`
 
 ```
 apiVersion: apps/v1
