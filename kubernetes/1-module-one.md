@@ -36,13 +36,13 @@ Find and Update the following values. Be careful to update the endpoint value as
 ```
 clusterName: "<yourClusterNameHere>"
 endpoint: "https://<yourSplunkHECEndpointHere>/services/collector"
-token: "00000000-0000-0000-0000-000000000000"
+token: "<yourHECToken>"
 index: "otel_events"
 metricsIndex: "otel_metrics"
 insecureSkipVerify: true
 metricsEnabled: true
 logsEngine: otel
-containerRuntime: "containerd"
+containerRuntime: "<yourK8sContainerRuntime>"
 excludeAgentLogs: false
 ```
 
