@@ -33,7 +33,7 @@ kubectl -n otel get cm
 ```
 View your configmap in yaml format:
 ```
-kubectl -n otel get cm <yourNameHere>-otel-splunk-otel-collector-otel-agent -o yaml
+kubectl -n otel get cm <yourNameHere>-splunk-otel-collector-otel-agent -o yaml
 ```
 The same way we annotated kube-system to exclude the logs, you can set a index values for a namespace or pod, or set a sourcetype for a pod. You can read more about this feature here! 
 At the time of writing this, only log ingestion can be managed this way. 
