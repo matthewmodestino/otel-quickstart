@@ -30,6 +30,6 @@ version.BuildInfo{Version:"v3.10.0", GitCommit:"ce66412a723e4d89555dc67217607c65
 
 If you can't run these two commands, review your kubectl and helm install and configuration. 
 
-If you can, lets proceed to the Lab Modules!
+If you can, lets [proceed to the Lab Modules](https://github.com/matthewmodestino/otel-quickstart/blob/main/kubernetes/1-module-one.md)!
 
 
