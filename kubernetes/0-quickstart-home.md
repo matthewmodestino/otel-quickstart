@@ -7,6 +7,7 @@ The modules contained here will cover Helm Chart download, prep and Install, usi
 At this time, the modules assume a linux based workstation. Windows users should be able to follow along with minor adjustments. 
 
 # Requirements
+- A linux based workstation
 - Access to a Kubernetes Environment
 - Kubectl
 - Helm
