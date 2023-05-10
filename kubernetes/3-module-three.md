@@ -43,7 +43,7 @@ kubectl -n otel get cm
 View your configmap in yaml format
 
 ```
-kubectl -n otel get cm <yourSplunkEmailPrefix>-tko-otel-splunk-otel-collector-otel-agent -o yaml
+kubectl -n otel get cm <yourNameHere>-tko-otel-splunk-otel-collector-otel-agent -o yaml
 ```
   
 scroll up until you see the regex we pasted into the multilineConfig section and let’s review what the helm chart has built for us
