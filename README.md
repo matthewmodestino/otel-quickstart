@@ -5,4 +5,4 @@ A collection of practical example configs and lab modules to help you get data i
 
 # Choose a Quickstart
 
-Kubernetes
+[Kubernetes](https://github.com/matthewmodestino/otel-quickstart/blob/main/kubernetes/1-quickstart-home.md#kubernetes-otel-quickstart-home)
