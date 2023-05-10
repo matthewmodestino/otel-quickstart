@@ -92,5 +92,5 @@ Check your pod logs from the command line
 kubectl -n mario logs -f <yourNameHere>-mario-<xxx>
 ```
 
-
+Proceed to [Module 3](https://github.com/matthewmodestino/otel-quickstart/blob/main/kubernetes/3-module-three.md)
 
