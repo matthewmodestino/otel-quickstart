@@ -4,7 +4,7 @@ Remember you can search for the line when not in “insert” mode by entering �
 Be sure to ensure formatting is kept!
 We recommend you comment out the existing multilineConfigs line, and paste this block directly underneath it. 
 
-vi values.yaml
+`vi values.yaml`
 
 Update <yourNameHere> before pasting the following block!
 
