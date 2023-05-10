@@ -69,7 +69,7 @@ kubectl create ns otel
 ```
 
 ## Install the helm chart with your customized values.yaml
-replace <your-clusterName> with the cluster name value we set in your values.yaml, for example “mattymo-otel-quickstart”
+replace <your-clusterName> with the cluster name value we set in your `values.yaml`, for example “mattymo-otel-quickstart”
 
 ```
 helm -n otel install <yourClusterNameHere> -f values.yaml splunk-otel-collector-chart/splunk-otel-collector
