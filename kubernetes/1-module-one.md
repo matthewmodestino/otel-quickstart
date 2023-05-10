@@ -31,7 +31,7 @@ vi values.yaml
 Take a minute to look through the different sections contained in the default values.yaml file. 
 Note that the yaml file is sensitive to indentation and may cause parsing issues when deploying the helm chart in the next step. If you get an error failing to parse `values.yaml` double check indentation.
 
-Find and Update the following values. Be careful to update the endpoint value as instructed! Do not copy and paste the “http” Splunk web url from your compute environment. HEC uses https so be careful trying to take shortcuts when copying and pasting here!
+Find and Update the following values. 
 
 ```
 clusterName: "<yourClusterNameHere>"
