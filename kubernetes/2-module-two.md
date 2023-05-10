@@ -76,13 +76,13 @@ index="otel_events" sourcetype="kube:container:docker-supermario" | reverse
 
 Navigate to the following address to access your pod from the browser:
 
-`http://<yourDNSName>.ec2.foo.io:30080/`
+`http://<yourHostname>.foo.io:30080/`
 
 Take a minute and play around a bit! Use your arrow keys to move mario. Use the “s” key to select a level or to jump. 
 
 Now, let's cause an error in our pod logs. The pod doesn't serve https, so try connecting to the same url with https. 
 
-`https://<yourEC2DNSName>.ec2.foo.io:30080/`
+`https://<yourHostname>.foo.io:30080/`
 
 What happens? 
 
