@@ -48,7 +48,7 @@ kubectl create ns otel
 replace <your-clusterName> with the cluster name value we set in your values.yaml, for example “mattymo-otel-quickstart”
 
 ```
-helm -n otel install <your-clusterName> -f values.yaml splunk-otel-collector-chart/splunk-otel-collector
+helm -n otel install <yourClusterNameHere> -f values.yaml splunk-otel-collector-chart/splunk-otel-collector
 ```
   
 ## Check your pods for errors
@@ -76,7 +76,7 @@ If there is an issue with the configuration, you will see a constant stream of w
 
 
 ```
-helm -n otel upgrade <yourEmailPrefix>-tko-otel -f values.yaml splunk-otel-collector-chart/splunk-otel-collector
+helm -n otel upgrade <yourCLusterNameHere> -f values.yaml splunk-otel-collector-chart/splunk-otel-collector
 ```
 
 Once you deploy your config updates, return to the previous step to check your pods are running and there are no errors in your pod logs. 
