@@ -37,12 +37,27 @@ Find and Update the following values. Be careful to update the endpoint value as
 clusterName: "<yourClusterNameHere>"
 endpoint: "https://<yourSplunkHECEndpointHere>/services/collector"
 token: "<yourHECToken>"
+index: "defaultOtelEventsIndex"
+metricsIndex: "defaultOtelMetricsIndex"
+insecureSkipVerify: <true|false>
+metricsEnabled: <true|false>
+logsEngine: otel
+containerRuntime: "<docker|containerd|cri-o>"
+excludeAgentLogs: <true|false>
+```
+
+Working basic example from MicroK8s to Splunk Enterprise with Splunk default untrusted certs
+
+```
+clusterName: "otel-quickstart"
+endpoint: "https://i-000000000000.ec2.foo.io:8088/services/collector"
+token: "00000000-0000-0000-0000-000000000000"
 index: "otel_events"
 metricsIndex: "otel_metrics"
 insecureSkipVerify: true
 metricsEnabled: true
 logsEngine: otel
-containerRuntime: "<yourK8sContainerRuntime>"
+containerRuntime: "containerd"
 excludeAgentLogs: false
 ```
 
