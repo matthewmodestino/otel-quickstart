@@ -65,7 +65,7 @@ kubectl -n mario delete pod <yourMarioPodName>
 ```
  
 Navigate to the mario web url using https:
-`https://<yourDNSName>.ec2.foo.io:30080/`
+`https://<yourHostname>.foo.io:30080/`
 
  
 Proceed to [Module 4](https://github.com/matthewmodestino/otel-quickstart/blob/main/kubernetes/4-module-four.md)
