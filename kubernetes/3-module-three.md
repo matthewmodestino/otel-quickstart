@@ -43,7 +43,29 @@ kubectl -n otel get cm
 View your configmap in yaml format
 
 ```
-kubectl -n otel get cm <yourNameHere>-tko-otel-splunk-otel-collector-otel-agent -o yaml
+kubectl -n otel get cm <yourNameHere>-otel-splunk-otel-collector-otel-agent -o yaml
 ```
   
 scroll up until you see the regex we pasted into the multilineConfig section and let’s review what the helm chart has built for us
+
+The helm chart takes the values we provide and uses it to build filelog operators. 
+First it inserts a router operator that routes logs that match the condition to our recombine rule. The recombine rule then applies our line merging logic based on the regex expression. You can read more about these operators that ship as part of the filelog receiver HERE.
+
+Now that our linebreaker is in place, let's delete our Mario pod and generate our HTTPS error again by navigating to our mario pod URL. 
+
+Find your mario pod name:
+
+```
+kubectl -n mario get pods
+```
+Delete it!:
+
+```
+kubectl -n mario delete pod <yourMarioPodName>
+```
+ 
+Navigate to the mario web url using https:
+`https://<yourDNSName>.ec2.foo.io:30080/`
+
+ 
+
