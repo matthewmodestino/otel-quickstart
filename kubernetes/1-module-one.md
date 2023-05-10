@@ -87,13 +87,13 @@ Output should show that both your “agent” and “cluster-receiver” are bot
 Now, Check both your pods for errors. 
 
 ```
-kubectl -n otel logs -f <collector-agent-pod> 
+kubectl -n otel logs -f <collectorAgentPodName> 
 ```
   
 View cluster-receiver pod logs with the following command:
 
 ```
-kubectl -n otel logs -f <collector-cluster-reciever-pod> 
+kubectl -n otel logs -f <collectorClusterRecieverPodName> 
 ```
 
 If there is an issue with the configuration, you will see a constant stream of warnings or errors. If you do happen to see warnings or errors you can refer to the TROUBLESHOOTING section for common errors. You will need to go back and fix your configuration then use the following command to deploy your changes:
